@@ -1,0 +1,72 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgb(20, 184, 47) 20%, rgb(18, 194, 86));
+  max-width: 65%;
+  padding: 20px;
+  position: relative;
+  top: 30px;
+}
+.city {
+  font-size: 80px;
+  color: #494b49;
+  text-align: left;
+  padding: 40px 20px;
+}
+.time {
+  font-size: 60px;
+  color: #494b49;
+  text-align: right;
+  padding: 40px;
+}
+.current-day,
+.current-conditions {
+  text-align: left;
+}
+
+.humidity,
+.wind {
+  text-align: right;
+  font-size: 12px;
+}
+#humidity,
+#wind {
+  font-size: 20px;
+  font-weight: bold;
+  color: #494b49;
+}
+h2 {
+  font-size: 20px;
+}
+.col-sm-6 {
+  text-align: center;
+  padding: 0px 30px 30px 30px;
+}
+.fa-cloud-sun-rain {
+  font-size: 50px;
+  text-align: center;
+}
+#temperature {
+  color: #494b49;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.units {
+  font-size: 20px;
+  float: inline-end;
+}
+.days {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card-body {
+  background-color: rgba(20, 184, 47, 0.6);
+}
+.btn-success {
+  margin: 10px;
+  background-color: #494b49;
+}
